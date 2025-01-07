@@ -1,4 +1,4 @@
-package ComplementarySet;
+package AllSet;
 
 import java.util.ArrayList;
 
@@ -10,14 +10,15 @@ public class Logic {
         this.data = new Data(universalData, yourData);
     }
 
-   
+    // Method to calculate the complement set
     public ArrayList complementset() {
         int[] yourData = data.yourDatagetter();
         int[] universalData = data.universalDatagetter();
 
+        // Use ArrayList to store complement elements
         ArrayList<Integer> complementSet = new ArrayList<>();
 
-        
+        // Add elements from universalData that are not in yourData
         for (int element : universalData) {
             boolean found = false;
             for (int yourElement : yourData) {
@@ -32,5 +33,26 @@ public class Logic {
         }
 
         return complementSet;
+    } 
+
+    public ArrayList UnionSet() {
+        int[] yourData = data.yourDatagetter();
+        int[] universalData = data.universalDatagetter();
+
+        // Use ArrayList to store complement elements
+        ArrayList<Integer> unionSet = new ArrayList<>();
+
+        // Add elements from universalData that are not in yourData
+        for (int element : universalData) {
+            unionSet.add(element);
+           
+        }
+        for (int element : yourData) {
+            unionSet.add(element);    
+        }
+
+        return unionSet;
     }
+
+
 }

@@ -1,0 +1,13 @@
+<mxfile host="65bd71144e">
+    <diagram id="R1-e50FDncXMlWAyd6Ty" name="Page-1">
+        <mxGraphModel dx="704" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Encapsulation is just hiding data from others (&quot;sidha vanu parda bank ma paisa rakhya xa vandai ma bank ko sab jana details lina paidaina ni user le ho testai ho tara bank manager le ta pauxa ni ho tyo manager ko 2 ota type hunxa yeuta paisa halne ra arko jhikne jhaslai getter setter ni vanxa so basically simple rup ma its just an hiding data and using bunch of private keyword and not giving acess to other that is called encapsulation ')&amp;nbsp; la have a good dayor goodnight j xa tei." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="30" width="460" height="300" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
